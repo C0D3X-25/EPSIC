@@ -1,0 +1,35 @@
+ https://www.digitec.ch/en
+ https://www.amazon.com/
+
+Produit:
+    -> A&D tous ce qui est transportable "simplement"
+    -> D plutôt orienté multimédia
+
+Cible:
+    -> Tous le monde / prix plus abordable
+
+Marché:
+    -> A international
+    -> D Suisse
+
+Même header, composé du nom du site, barre de recherche (qui prend le plus de place), le chariot ainsi que le login
+    -> Simple et quasiment tous les sites de vente possède une même mise en page.
+    -> D barre de recherche reste coller, language
+
+Barre de navigation sur le côté permetant de rapidement aller dans les catégories principale.
+    -> A possède dans cette barre aussi les options de compte
+    -> D présent sans clique requis
+
+Main page:
+    -> D plutôt centré sur l'actuallité est plus bas des recommendations perso et les nouveaux produits
+    -> A pure bourrage de crâne, tous les pixels doivent avoir un produit à vendre, pure capitalime (il faut vendre).
+    -> A certaines catégories (celle qui font le plus de vente certainement) très mise en avant.
+
+Footer:
+    -> Possède toutes les info pour les services, conditions, assurances
+    -> A des liens pour leurs partenaires, devises, languages, pays
+    -> D localisations des points de vente, réseaux sociaux, offres d'emploi, à propos de, assistance
+
+Navigation sur le site:
+    -> A est optimisé pour afficher beaucoup d'image, charge vite
+    -> D interface plus lèger et couleurs dans la même armonie

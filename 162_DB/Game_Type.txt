@@ -1,0 +1,24 @@
+1 - Date de sortie
+2 - Genre
+3 - Support
+4 - Solo / Multi
+5 - Age minimum
+6 - 2D/3D
+7 - Titre
+8 - Langues supportées
+9 - Langue de programmation
+10 - DLC
+11 - Démat / CD / Cartouche
+12 - Prix
+13 - Anti-Cheat
+14 - Mod
+15 - Crossplatform
+16 - Achivements
+17 - Developer
+18 - Publisher
+19 - Awards
+20 - Reviews
+
+Marketing -> Age minimum, Prix, Developer, Publisher, DLC, Support, Anti-Cheat, Démat/CD, Genre, Date de sortie, Titre, Rewiews, Awards, 
+Devlopment -> Langue de programmation, Langues supportées, 2D/3D, Support, Crossplatform, Solo/Multi, Achivements
+ 

@@ -1,0 +1,30 @@
+1. Pour ce connecter sur internet il faut physiquement brancher son PC sur une prise RJ45 ou via un Wifi.
+    Ensuite, il faut attribuer une adresse IP à sa machine afin quelle soit reconnue. 
+    Et pour finir on peut naviguer sur des sites en connaissant leur IP (traduit en nom de domaine via le DNS)
+
+2. Savoir l'adresse (comme une adresse postale) de la machine.
+
+3. HyperText Transfer Protocol 
+
+4. HTTP utilise le protocole TCP (Transmission Control Protocol) plutôt que UDP (User Datagram Protocol) 
+    en raison des caractéristiques spécifiques du TCP qui garantissent une transmission fiable des données.
+    TCP offre des fonctionnalités comme la vérification des erreurs, l'ordonnancement des paquets, et la retransmission des paquets perdus.
+
+5. Le protocole FTP (File Transfer Protocol) est généralement utilisé pour le transfert de fichiers entre un client et un serveur sur un réseau.
+
+6. Edge, chrome, firefox, safari, duckduckgo
+
+7. Uniform Resource Locator
+
+8. https://domain_name/page_name/other_info_for_get
+
+9. Sans le DNS il faudrai savoir quel est l'adresse IP de chaque site qu'on veut visiter, le DNS est demandé par le Resolver.
+
+10. Permet de différencier les données envoyé par un serveur et de les diriger vers le bon service
+
+11. Annuaire -> liste de site webs
+    Moteur de recherche -> bot qui donne des sites webs via les mots-clés donnés
+
+12. La tâche principale du W3C (World Wide Web Consortium) est de développer des standards et 
+     des protocoles ouverts pour le Web afin de garantir son développement et son interopérabilité.
+     Le W3C définit les normes techniques qui permettent au web de fonctionner de manière cohérente, comme les standards HTML, CSS, XML.
