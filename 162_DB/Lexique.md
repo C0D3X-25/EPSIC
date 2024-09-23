@@ -1,0 +1,3 @@
+Propriétés  => first_name, last_name, ...
+Entité      => it's a table
+Identifiant => ID
