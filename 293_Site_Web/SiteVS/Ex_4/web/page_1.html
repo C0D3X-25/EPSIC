@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Exercice table</title>
+</head>
+<body>
+    <header>
+        <h1>JRR Tolkien</h1>
+        <nav>
+            <h2>Navigation goes here</h2>
+            <a href="../index.html">Main page</a>
+            <a href="page_1.html">Exercice table</a>
+            <a href="page_2.html">Page 2</a>
+        </nav>
+    </header>
+
+    <h1>This is the Exercice table</h1>
+
+    <table border="1">
+        <caption>Tableau - Template</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1">
+        <caption>Tableau - Exercice No 1</caption>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="4">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td colspan="6">7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td colspan="6">10</td>
+            </tr>
+            <tr>
+                <td colspan="4">11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <caption>Tableau - Exercice No 2</caption>
+        <tbody>
+            <tr>
+                <td colspan="4">1</td>
+                <!-- <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td>3</td>
+                <td>4</td>
+                <td rowspan="3">5</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>6</td>
+                <td>7</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td colspan="2">8</td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table_main" border="1">
+        <caption>Tableau - Exercice No 1</caption>
+        <tbody>
+            <tr>
+                <td>
+
+                    <table class="table_left" border="1">
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td colspan="2">5</td>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td colspan="2">10</td>
+                                <!-- <td></td> -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+
+                    <table class="table_right" border="1">
+                        <tbody>
+                            <tr>
+                                <td>A</td>
+                                <td>B</td>
+                                <td>C</td>
+                                <td>D</td>
+                                <td>E</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>G</td>
+                                <td>H</td>
+                                <td>I</td>
+                                <td>J</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <!-- insert last table here  -->
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>

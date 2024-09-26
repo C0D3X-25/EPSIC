@@ -1,0 +1,18 @@
+/* body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  } */
+
+  table {
+    margin-left: 25px;
+  }
+
+  td {
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+  }
