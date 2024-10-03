@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-12" view-index="0" gantt-divider-location="391" resource-divider-location="361" version="3.3.3312" locale="en_GB">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="211" order="0"/>
+        <field id="tpd4" name="Begin date" width="78" order="1"/>
+        <field id="tpd5" name="End date" width="87" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffcc00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="147" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="3c233a0cd4264bcc869a120fe247e1c1" name="Evénement dégustation culinaire" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+            <task id="2" uid="bce247c5cb994d71a02106f82b6b803b" name="Coordination" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                <task id="42" uid="1a5911d2eca14ea5ba3e38b856968dc7" name="Définir les Critères" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                <task id="43" uid="d93edd617c6f495f8c2e291d5b871156" name="Définir les budgets" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="51" uid="5aadf1c0f29b465d9305d24dd45f1269" name="RH" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="52" uid="4b43b67430f0411ba36b7b0aeeccd2c4" name="Infrastructure" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="53" uid="56327062e18d47e082d47c9e0ac11746" name="Marketing" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="54" uid="7c649c89e80c4845a121547c49a674c6" name="Divertissement" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="56" uid="edb4224163844b7ba379e029c17b2715" name="Gestion" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="44" uid="159352a2ef334271ae6fdf0ddaa94e27" name="Définir les lieu" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                <task id="58" uid="2af3a88b5e3f4e6dae73a8afa075ffb0" name="Réunion" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="59" uid="2ad1394b47994b1b8d94fcbb8bf3ae9a" name="Police" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="47" uid="9710d77c3adc4e31a6ac7e32658c9584" name="Médiamaticien" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="48" uid="429f4b5cc20f4851a4bc6a749c1d982c" name="Définir les prix" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="50" uid="c1a027d5b1c748b1a776e449b51a92e8" name="Départ" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="49" uid="95811205813c496ea8ff15b419eef8f3" name="Taxe d'occupation" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="45" uid="308260708ad94a48b5ccfffd632dbcf4" name="État des lieux" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="46" uid="d31d5a31ad66417baeb37ef81a01888a" name="Arrivée" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="24" uid="5c9233d747784bb9b33df4116a7b1cbe" name="Ressources Humaines" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                <task id="55" uid="06c6625653604c59856956ae14226675" name="Rotation du personnel" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="61" uid="722f25b7527b474bb179fa5ca13d97a3" name="Horaires" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="57" uid="2507127c8d03411eb09254d859d04b40" name="Attribution des rôles" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                <task id="25" uid="1e134a46fbff449ebc81dcfc5419f51c" name="Sécurité" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="62" uid="212fb68b364e4b9cb42dd0408e2c2692" name="Securitas" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="63" uid="32ab631cfcdc4e7591cd3801c2599c73" name="Premier secours" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="26" uid="ac2adbf86dab4a98b9c101540ead808c" name="Bénévole" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="64" uid="9e46ebb9a1d04042afb6080dbad9def5" name="Appel à des bénévoles" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="65" uid="e291bf11540048158102e63e68bf65f9" name="Offres aux bénévoles (entrée, nourriture, boisson)" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="27" uid="d8099529e88f4992aabe506d279066ea" name="Employé" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="66" uid="50a44bdab0bc4b51b93e90ef00a6cab4" name="Chauffeur de bus" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="23" uid="7924883537ea4d679f42c05387ae2902" name="Gestion" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                <task id="28" uid="7a7502f306754297b31c4b6e44e906bd" name="Parking / Transport" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="67" uid="ba2ea7f640e442c7b63464e64095fa68" name="Réservation des places de parc" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="68" uid="9392501eef96411a9e7c93db355ef2c0" name="Location des bus" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="69" uid="0a6bc3bb33ef4b51bd1d812e11711d03" name="Emplacement des arrêts de bus" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="29" uid="74ff1af436324e16b77d7d296927679d" name="Emplacement Stand" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="70" uid="b7d93f070e954ce082bb5b4c13512650" name="Délimiter les zones des stands (par zone géo)" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="31" uid="fb1cfd8a696e4431b8db2a64d85ab88f" name="Marchandise" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                    <task id="41" uid="7aa5325e269c42cb981c7e9914a6140a" name="Boisson" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="40" uid="f5381c955b02421583982a59eabded6b" name="Nourriture" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="30" uid="03e37185ff4947eb90799f8843c2351d" name="Caisse" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="71" uid="89b2ee49bf6d42a79538270211f4f590" name="Chercher liquidité" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="72" uid="9ef22e3f09694935b085a519f459fb10" name="Création compte bancaire" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="73" uid="b210e6f133a140f2a11ff2af4f448c38" name="Twint" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="74" uid="3584472f8058474990a9c945d412a950" name="Location terminale de payement" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="4" uid="c808362c10e54defb9120f06fc7e1cb8" name="Infrastructure" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                <task id="10" uid="e3a34aecf5c7473d872149fa6b635649" name="Location matériel" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="91" uid="a50d07fc1f0b4487975c0cb47de03c57" name="Recherche de fournisseurs par matériel" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="15" uid="80607c585d184bcb8b7f1897c9144eef" name="Matériel fournis/amené" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="92" uid="804a0ee288e04cff84d5d6a49a30e056" name="Recherche matériel amenable" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="93" uid="63d366de2c384107829b50606435e3d7" name="Livraison du matériel amenable" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                <task id="17" uid="ed9fe33fd04b4cdbb6500b30c7e8d758" name="Eau" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                    <task id="94" uid="feb5c80af58d4fa2a01aad29f7529989" name="Obtenir l'accord de la commune" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="32" uid="78fa3a5944fb4f31b0b1edd1d6809261" name="Electricité" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                <task id="33" uid="bf3a774ca2e044e286a8eb50fdc41cde" name="Sanitaire" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                <task id="18" uid="ad81d4bad9594c369ebb72ccf220f239" name="Matériel informatique" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                    <task id="98" uid="adedae0a6a66490582fdef34561a4506" name="Obtention matériel informatique" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="99" uid="017817b769bd41b280980031037e93f8" name="Placement matériel informatique" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="3" uid="0555740070a34cb6bf380c347da63c67" name="Marketing" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                <task id="34" uid="2ff6cfe501f44a33b776cfd1c969edb8" name="Publicité" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="75" uid="d8e2af39e9ac4b26ab808d95112d48dc" name="Recherche entreprise création multimedia" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="36" uid="960277f50eb446b086b4ac1b9e1c32a9" name="Réseau" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                        <task id="76" uid="cb14ba830e0e42f88fbb7b7f85b0c95f" name="Designing logo avec le graphiste" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                        <task id="77" uid="eeb8aaee7d214ae79c4974c148b0a276" name="Designing de publicité" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                        <task id="78" uid="98f0c2957ee745d6b9d8a6dd75a1ba4c" name="Site" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                            <task id="79" uid="7c88ed8bcd3b44898f360c37b5d62d06" name="Disigning du site" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                            <task id="80" uid="da12dd78bae0450a9b9da17961898d81" name="Mise en marche du site" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                        </task>
+                    </task>
+                    <task id="35" uid="a78e68c9c8804bf6951ad9802b1c1a20" name="Physique" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                        <task id="81" uid="07b5f86b592c4ca5a4d29b9816245eb3" name="Desiging des affiche" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                        <task id="82" uid="6d5d6292d5b440b89eff5324340a2422" name="Designing des flyers" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="38" uid="3de604ad9bfc464c9ae539e6fa64d063" name="Création des comptes réseaux sociaux" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                <task id="20" uid="c7d6bdd3ff7e4f9aa62d9e794806e681" name="Démarcher des restaurateurs" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="83" uid="b1e49e6d5b03417abfb4af3698910f1b" name="Recherche de restaurateur potentiel" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="84" uid="ad0c43d4176d4eeab08a224679e737d5" name="Appeler les restaurateurs" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="39" uid="1d60ec2404084a049bac0b7315ce9ab6" name="Sponsors" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="85" uid="37afcf89c97a4012a3f6c0d1b2aa5dda" name="Recherche de sponsors potentiel" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                        <task id="86" uid="a1b1fa920e3248158b17f2208b6838d4" name="Communication et planification" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="5" uid="fec3eb97db074473bf38a2e06abd1a42" name="Divertissement" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                <task id="12" uid="9e8ae21ccd6f46f78070704a482a2d49" name="Musique" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="87" uid="91f66c0cf5c7405587e6b31f56284c70" name="Trouver Artiste/DJ" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                    <task id="88" uid="525b499ee2dc4a4c9726c73b9f7f3b71" name="Programme" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="13" uid="e5d400dbf8794ece821adb4c9474bd3e" name="Potentielles animations" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                    <task id="89" uid="bec03455c795490d9f406ad59a889015" name="Programme" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="21" uid="f5d9f4dea1f740da9e0ec826fc4d8195" name="Choix de la décoration" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Tristan Schorr" function="4" contacts="tristant.schorr@eduvaud.ch" phone=""/>
+        <resource id="1" name="Jocelin Thumelin" function="Default:1" contacts="jocelin.thumelin@eduvaud.ch" phone=""/>
+        <resource id="2" name="Yohan koch" function="2" contacts="yohankoch@proton.me" phone=""/>
+        <resource id="10" name="Gianni Della" function="3" contacts="gianni.della@eduvaud.ch" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="10" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name=""/>
+        <role id="2" name="Marketing Manager"/>
+        <role id="3" name="Divertissement Manager"/>
+        <role id="4" name="Infrastructure Manager"/>
+    </roles>
+</project>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register form</h1>
+    
+    <form action="Controller.php" method="post"></form>
+
+    
+        <fieldset> <!-- Contact details -->
+            <legend>Your contact details</legend>
+            <table>
+                <tr>
+                    <td>
+                        <!-- Empty -->
+                    </td>
+                    <td> <!-- Drop down list -->
+                        <select name="gender" id="gender">
+                            <option value="woman">Woman</option>
+                            <option value="man">Man</option>
+                            <option value="other">Other</option>
+                            <option value="apache">Apache D64</option>
+                        </select>
+                    </td>
+                    <td>
+                        <!-- Empty -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="full_name">Full name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="full_name" id="full_name">
+                    </td>
+                    <td>
+                        <!-- Empty -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="address">Adress:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="address" id="address">
+                    </td>
+                    <td>
+                        <!-- Empty -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="city">NPA and City:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="city" id="city">
+
+                    </td>
+                    <td>
+                        <!-- Empty -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="phone">Phone nbr:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" id="phone">
+                    </td>
+                    <td>
+                        <!-- Empty -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">E-Mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                    <td>
+                        <!-- Empty -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <!-- Radio buttons -->
+                        <label for="travel">I travel:</label>
+                        <input type="radio" name="travel" id="walk">
+                        <label for="walk">walk</label>
+                        <input type="radio" name="travel" id="bike">
+                        <label for="bike">bike</label>
+                        <input type="radio" name="travel" id="train">
+                        <label for="train">train</label>
+                        <input type="radio" name="travel" id="motorbike">
+                        <label for="motorbike">motorbike</label>
+                        <input type="radio" name="travel" id="car">
+                        <label for="car">car</label>
+                    </td>
+                    <td>
+                        <!-- Empty -->
+                    </td>
+                    <td>
+                        <!-- Empty -->
+                    </td>
+                </tr>
+
+            </table>
+            <ul>
+
+
+        </fieldset>
+
+        
+         <fieldset> <!-- Personal account -->
+            <legend>Your personal account</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="user">User</label>
+                    </td>
+                    <td>
+                        <input type="text" name="user" id="user">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+                
+                
+            <fieldset> <!-- Qualification -->
+                <legend>Your qualifications</legend>
+                <ul>
+                    <li> <!-- Radio buttons -->
+                        <label for="cfc">CFC</label>
+                        <input type="radio" name="qualif" id="cfc" value="cfc">
+                        <label for="es">ES</label>
+                        <input type="radio" name="qualif" id="es" value="es">
+                        <label for="hes">HES</label>
+                        <input type="radio" name="qualif" id="hes" value="hes">
+                    </li>
+                    <li> <!-- Text Area -->
+                        <label for="precision">Do you have others qualifications or experiences :</label> <br>
+                        <textarea name="precision" id="precision" placeholder="Can you precise"></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+        
+        
+        <fieldset> <!-- Seminary choice -->
+            <legend>You seminary choice</legend>
+             <ul>
+                 <li>
+                     <select name="seminary" id="seminary">
+                         <option value="option_a">Option A</option>
+                         <option value="option_b">Option B</option>
+                         <option value="option_c">Option C</option>
+                         <option value="option_d">Option D</option>
+                        </select>
+                    </li>
+                </ul>
+        </fieldset>
+
+        
+        <fieldset> <!-- Submit and Reset buttons -->
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
